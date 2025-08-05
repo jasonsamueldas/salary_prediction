@@ -74,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Example Output
+## Example Output
 
 Upon entering valid inputs and clicking **Predict Salary**, the app:
 - Displays the predicted salary in INR
