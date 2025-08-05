@@ -8,7 +8,7 @@ st.set_page_config(page_title="Salary Estimation App",layout="wide")
 st.title("Salary estimation")
 st.markdown("Predict salary based on company experience!")
 
-st.image(r"C:\Users\jason\ML Capstone Project\tony stank.gif",caption="Let's make some money!",use_container_width=True)
+st.image(r"tony stank.gif",caption="Let's make some money!",use_container_width=True)
 
 st.divider()
 
@@ -49,4 +49,5 @@ if predict_button:
     st.plotly_chart(fig)
 
 else:
+
     st.info("Enter details and click 'Predict Salary'.")
