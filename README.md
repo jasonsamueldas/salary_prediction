@@ -1,5 +1,5 @@
 
-# 💼 Salary Estimation App
+# Salary Estimation App
 
 A **Streamlit-based web application** that predicts employee salary based on:
 - Years at the company
@@ -10,26 +10,26 @@ This project is the culmination of a **Machine Learning Placement Training Capst
 
 ---
 
-## 🚀 Features
+## Features
 
 - User-friendly UI built with **Streamlit**
 - Visual feedback with **Plotly** bar charts
 - Real-time predictions using a trained **Linear Regression** model
 - Scaled inputs using **StandardScaler**
-- Fun UI enhancements (like confetti balloons 🎈)
+- Fun UI enhancements (like confetti balloons)
 
 ---
 
-## 🧠 ML Models Used
+## ML Models Used
 
 The training notebook explores and compares:
-- **Linear Regression** ✅ *(Best model - used in app)*
+- **Linear Regression** *(Best model - used in app)*
 - **Support Vector Regressor (SVR)** with GridSearchCV
 - **Random Forest Regressor** with hyperparameter tuning
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app.py                        # Streamlit app code
@@ -42,7 +42,7 @@ The training notebook explores and compares:
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Install the following Python packages:
 
@@ -52,7 +52,7 @@ pip install streamlit joblib scikit-learn pandas numpy plotly matplotlib seaborn
 
 ---
 
-## 🖥️ How to Run the App
+## How to Run the App
 
 1. Clone this repo or download the files.
 2. Ensure `scaler.pkl` and `model.pkl` are present in the same directory.
@@ -62,11 +62,11 @@ pip install streamlit joblib scikit-learn pandas numpy plotly matplotlib seaborn
 streamlit run app.py
 ```
 
-> ⚠️ Note: Replace the hardcoded image path in `app.py` with a valid image URL or a local file in the same directory.
+> Note: Replace the hardcoded image path in `app.py` with a valid image URL or a local file in the same directory.
 
 ---
 
-## 📊 Sample Input Features
+## Sample Input Features
 
 - **Years at Company:** `0` to `20`
 - **Satisfaction Level:** `0.0` to `1.0`
@@ -82,14 +82,14 @@ Upon entering valid inputs and clicking **Predict Salary**, the app:
 
 ---
 
-## 📌 Dataset Info
+## Dataset Info
 
 - Used a synthetic `employee_attrition_data.csv` dataset.
 - Features include job satisfaction, work hours, tenure, and salary.
 
 ---
 
-## 🧪 Evaluation Metrics
+## Evaluation Metrics
 
 Evaluated model performance using:
 - **Mean Absolute Error**
@@ -97,7 +97,6 @@ Evaluated model performance using:
 
 ---
 
-## ✍️ Author
+## Author
 
-**Jason X**  
-[LinkedIn] | [GitHub] *(Add your links)*
+**Jason Samuel Das**  
